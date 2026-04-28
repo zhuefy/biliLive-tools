@@ -401,7 +401,7 @@ async function getRoomInfoByWeb(
 async function getRoomInfoByMobile(
   secUserId: string | number,
   // @ts-nocheck
-  _opts: {
+  opts: {
     auth?: string;
   } = {},
 ): Promise<RoomInfo> {
